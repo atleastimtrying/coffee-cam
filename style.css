@@ -7,11 +7,12 @@
 	text-shadow:black 2px 2px 2px;
 }
 body{
-	background-color:rgba(150,135,180);
+	background-color:rgb(10,90,50);
 	background-image: -webkit-gradient(
 		radial,  
 		50% 50%, 400, 50% 50%, 1200, from(rgba(150,150,150,0.5)), to(rgba(150,150,150,0))
 	);
+	background-repeat:none;
 }
 header{
 	padding:50px;
@@ -23,7 +24,15 @@ h1{
 	font-weight:normal;
 	font-size:40px;
 }
-video{
+video,
+canvas{
+	width:90px;
+	height:60px;
+	background:white;
+	border: 1px solid gray;
+	padding:10px;
+}
+canvas{
 	width:640px;
 	height:480px;
 }
