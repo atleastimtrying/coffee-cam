@@ -24,15 +24,11 @@ h1{
 	font-weight:normal;
 	font-size:40px;
 }
-video,
+
 canvas{
-	width:90px;
-	height:60px;
+  width:320px;
+  height:240px;
 	background:white;
 	border: 1px solid gray;
 	padding:10px;
-}
-canvas{
-	width:640px;
-	height:480px;
 }
